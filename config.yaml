@@ -1,0 +1,16 @@
+data_ingestion:
+    # Path to store all data
+    data_dir: data
+    url: https://archive.ics.uci.edu/static/public/2/adult.zip
+    raw_zip_file: data/adult.zip
+    # Path to store files after unzipping
+    target_dir: data
+    
+# Validation processes   
+data_validation:
+    train_data_dir: data/train_cleaned.csv
+    test_data_dir: data/test_cleaned.csv
+    STATUS_FILE: data/Status.txt
+    schema: schema.yaml
+    python_file: data/data_validation.py
+    
