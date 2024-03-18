@@ -62,7 +62,7 @@ def min_max_scaler(df, column_name):
         panda.core.series.Series: The DataFrame with the scaled column.
     """
     # Extract the specified column
-    column_values = df[column_name]
+    column_values = df[column_name].astype('float')
 
     # Calculate the minimum and maximum values
     min_val = column_values.min()
