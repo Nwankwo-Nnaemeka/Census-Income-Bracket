@@ -10,4 +10,7 @@ RANDOM_FOREST:
 
 
 DNN:
+     learning_rate: .01
+     num_epcohs: 20
+     batch_size: 128
     
