@@ -8,6 +8,7 @@ from pydantic import BaseModel, conlist
 # Initialize FastAPI
 app = FastAPI(title="Predicting income class")
 
+# validate inputs
 class Income(BaseModel):
     age: float
     workclass: float
