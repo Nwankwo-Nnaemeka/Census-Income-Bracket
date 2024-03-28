@@ -1,6 +1,7 @@
 import pickle
 from sklearn.metrics import f1_score
 
+# Load the model
 with open("income.pkl", "rb") as f:
     clf = pickle.load(f)
 
