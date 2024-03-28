@@ -5,6 +5,7 @@ from typing import List
 from fastapi import FastAPI
 from pydantic import BaseModel, conlist
 
+# Initialize FastAPI
 app = FastAPI(title="Predicting income class")
 
 class Income(BaseModel):
