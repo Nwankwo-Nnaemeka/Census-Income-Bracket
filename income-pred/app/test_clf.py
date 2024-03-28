@@ -9,7 +9,7 @@ with open("income.pkl", "rb") as f:
 # Define function
 def test_f1_score():
     # Load test data
-    with open("data/test_data.pkl", "rb") as file:
+    with open("test_data/test_data.pkl", "rb") as file:
         test_data = pickle.load(file)
 
     # Unpack the tuple
