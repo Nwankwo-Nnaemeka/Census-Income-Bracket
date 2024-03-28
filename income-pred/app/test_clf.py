@@ -5,6 +5,8 @@ from sklearn.metrics import f1_score
 with open("income.pkl", "rb") as f:
     clf = pickle.load(f)
 
+
+# Define function
 def test_f1_score():
     # Load test data
     with open("data/test_data.pkl", "rb") as file:
