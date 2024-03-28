@@ -63,3 +63,4 @@ def predict(income:Income):
     pred = pred[0]
     print(pred)
     return {"Prediction": pred}
+
